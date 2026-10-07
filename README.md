@@ -22,7 +22,7 @@ Katalog Pokémon adalah aplikasi mobile Android untuk mencari, melihat, dan meng
 ### 1. Spesifikasi & Tech Stack
 - **Bahasa:** Kotlin 2.2.10
 - **UI Framework:** Jetpack Compose (Material 3)
-- **Min SDK:** [Cek di app/build.gradle.kts, contoh: 24 (Android 7.0)] | **Target SDK:** [Cek di app/build.gradle.kts, contoh: 35 (Android 15)]
+- **Min SDK:** 24 | **Target SDK:** 37
 - **Pola Arsitektur:** MVVM (Model-View-ViewModel) dengan Repository Pattern
 - **Library Utama:**
     - `Navigation Compose` (Routing halaman Home dan Detail)
@@ -76,7 +76,7 @@ app/src/main/java/[package/aplikasi/kamu]/
 2. **Langkah:**
 ```bash
    # Clone repository
-   git clone <URL_REPOSITORY>
+   git clone https://github.com/wakhid3273/Responsi-PraktikumPemmob-PaketPokemon-Wakhid-Nugroho-H1D024003
 ```
 3. Buka folder proyek di **Android Studio**.
 4. Tunggu proses **Gradle Sync** selesai.
